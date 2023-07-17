@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Event Data</title>
+  <style>
+    h1{
+
+        position:static;
+        background-color: rgb(149, 149, 235);
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 50;
+    }
+    
+    li {
+      border: 1px solid #ccc;
+      margin: 5px 0;
+      padding: 10px;
+      position: relative;
+      background-color: antiquewhite;
+    }
+    
+    li button {
+      position: absolute;
+      top: 10px;
+      right: 50px;
+      background-color: red;
+      
+    }
+  </style>
+</head>
+<body>
+  <h1>Student Event Data</h1>
+  
+  <button id="add-entry">Add Entry</button>
+  
+  <ul id="entry-list">
+    <li>gautam<br>gautam@gmail.com<br>9821248447<br>1BM21CS067<br>CSE<br>CODING HUB<button class="delete-entry">Delete</button></li>
+    <li>gautami<br>gautami@gmail.com<br>9821248446<br>1BM21CS068<br>CSE<br>ciltural Dance<button class="delete-entry">Delete</button></li>
+    <li>rabin<br>Rabin@gmail.com<br>9812248447<br>1BM21CS061<br>CSE<br>cricket farooz<button class="delete-entry">Delete</button></li>
+    <li>yash<br>yash@gmail.com<br>9899948447<br>1BM21CS101<br>CSE<br>Football<button class="delete-entry">Delete</button></li>
+    <li>sujan<br>sujan@gmail.com<br>9812241234<br>1BM21CS100<br>CSE<br>Photography<button class="delete-entry">Delete</button></li>
+    <li>Aalok<br>Aalok@gmail.com<br>9812242349<br>1BM21CS120<br>CSE<br>Clay Modeling<button class="delete-entry">Delete</button></li>
+
+  </ul>
+  
+  <script>
+    // Function to add an entry to the list
+    function addEntry() {
+      const li = document.createElement("li");
+      li.innerHTML = `Name: <input type="text" value=""><br>Email: <input type="text" value=""><br>Phone Number: <input type="text" value=""><br>USN: <input type="text" value=""><br>Branch: <input type="text" value=""><br>Event: <input type="text" value=""><button class="delete-entry">Delete</button>`;
+      document.getElementById("entry-list").appendChild(li);
+    }
+    
+    // Function to remove an entry from the list
+    function removeEntry(e) {
+      if (e.target.classList.contains("delete-entry")) {
+        e.target.parentElement.remove();
+      }
+    }
+    
+    // Add event listeners
+    document.getElementById("add-entry").addEventListener("click", addEntry);
+    document.getElementById("entry-list").addEventListener("click", removeEntry);
+  </script>
+</body>
+</html>

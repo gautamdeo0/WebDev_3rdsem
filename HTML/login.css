@@ -1,0 +1,105 @@
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image: url("istockphoto-1178390169-170667a.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    border-color: aqua;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  
+}
+
+header{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin: 30px;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(47, 184, 13, 0.1);
+    outline: none;
+    margin: 20px;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: rgb(255, 255, 255);
+}
+::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s ;
+    margin: 20px;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -540px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 800px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    background-color: rgb(184, 209, 231);
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+    color: rgb(40, 19, 224);
+    font-family: Arial;
+    font-weight: bold;
+   
+}
+
+ul li a:hover{
+    color: rgb(184, 209, 231);
+    background-color: rgb(40, 19, 224); 
+    box-shadow: 3px 5px 7px 3px rgba(0, 0, 0, 0.2);
+}

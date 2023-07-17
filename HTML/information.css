@@ -1,0 +1,88 @@
+.container{
+    background-image: url("bwood1.jpeg");
+    border-radius: 30px;
+}
+.l1{
+    background-color: #46a094;
+    border: 1px solid black; 
+    width: 70%; 
+    height: 1200px; 
+    float: left;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.r1{ background-color: #6bbd99;
+    border: 0.01px solid black; 
+    width: 21%; 
+    height: 450px;
+     margin-top: 20px; 
+     margin-left: 75%;
+     border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.r2{
+    background-color: #6bbd99;
+    border: 0.01px solid black; 
+    width: 21%; 
+    height: 450px;
+     margin-top: 70px; 
+     margin-left: 75%;
+     border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.l12{ background-color: #aecfa4;
+    border: 1px solid black; 
+    width: 90%; 
+    height: 300px; 
+    margin-left: 2%;
+    float: left;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.l13{ background-color: #aecfa4;
+    border: 1px solid black; 
+    width: 90%; 
+    height: 150px; 
+    margin-top: 10px; 
+    margin-left: 2%;
+    float: left;
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.r12{background-image: url("c1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 0.01px solid black; 
+    width: 61%; 
+    height: 200px;
+     margin-top: 10px; 
+     margin-left: 13%;
+     border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.r13{background-image: url("bwood.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 0.01px solid black; 
+    width: 61%; 
+    height: 200px;
+     margin-top: 10px; 
+     margin-left: 13%;
+     border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+
+}
+.p1{
+    border-radius: 30px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>registration</title>
+    <link rel="stylesheet" href="reg2.css">
+
+</head>
+
+<body>
+    <form action="sportEvent.php" method="post">
+    <!-- <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post"> -->
+        <div class="wrapper">
+            <div class="title">
+              Register Here
+            </div>
+            <div class="form1" >
+        <div class="input_field" id="name">
+            Name: <input type="text" placeholder="name" name="fname" required><b>
+                <div><span class="formerror"> </span></b></div>
+        </div>
+
+        <div class="input_field" id="email">
+            Email: <input type="email" placeholder="email" name="femail" required><b>
+                <div><span class="formerror"> </span></b></div>
+        </div>
+
+        <div class="input_field" id="phone">
+            Phone: <input type="phone" placeholder="phone number" name="fphone" required><b>
+                <div><span class="formerror"> </span></b></div>
+        </div>
+
+        <div class="input_field" id="usn">
+            USN: <input type="text" placeholder="usn" name="fusn" required><b>
+                <div><span class="formerror"> </span></b></div>
+        </div>
+
+        <div class="input_field" id="branch">
+            Branch: 
+            <select name="fbranch" required>
+                <option value="">Select Branch</option>
+                <option value="CSE">Computer Science and Engineering (CSE)</option>
+                <option value="IS">Information Science (IS)</option>
+                <option value="CIVIL">Civil Engineering (CIVIL)</option>
+                <option value="MECHANICAL">Mechanical Engineering (MECHANICAL)</option>
+                <option value="ELECTRONICS">Electronics and Communication Engineering (ELECTRONICS)</option>
+            </select>
+            <div><span class="formerror"> </span></div>
+        </div>
+
+        
+        <div class="input_field" id="evt">
+            event:
+            <select name="fevt" required>
+                <option value="">confirm event</option>
+                <option value="SNK REGIONAL BOUTS - East Asia">SNK REGIONAL BOUTS - East Asia</option>
+                <option value="Granblue Fantasy Versus Community League 2022 - Asia Finals">Granblue Fantasy Versus Community League 2022 - Asia Finals</option>
+                <option value="PlayAll Box Cricket Cup - Jaipur">PlayAll Box Cricket Cup - Jaipur</option>
+                <option value="MP Sports Utsava - Football">MP Sports Utsava - Football</option>
+                <option value="Fly High Junior Badminton Tournament">Fly High Junior Badminton Tournament</option>
+                <option value="ALL INDIA JUNIOR BADMINTON TOURNAMENT">ALL INDIA JUNIOR BADMINTON TOURNAMENT</option>
+            </select>
+            <div><span class="formerror"> </span></div>
+        </div>
+
+
+        <input class="btn" type="submit" value="Submit">
+
+    </form>
+</body>
+<script src="reg2.js"></script>
+
+</html>

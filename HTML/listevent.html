@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<html>
+  <head>
+    <title>Button Page</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      .button {
+        display: block;
+        width: 400px; /* Doubled the width to 400px */
+        height: 80px; /* Doubled the height to 80px */
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        line-height: 80px; /* Updated line-height to match the new height */
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        margin: 5px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+      <button id="academic-event-button" class="button">Academic Event</button>
+      <button id="cultural-event-button" class="button">Cultural Event</button>
+      <button id="sport-event-button" class="button">Sports Event</button>
+      <button id="coding-event-button" class="button">Coding Event</button>
+      <button id="music-event-button" class="button">Music Event</button>
+    </div>
+  </body>
+  <script src="acaEvent_display.js"></script>
+</html>

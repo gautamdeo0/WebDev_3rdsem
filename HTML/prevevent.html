@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="../CSS/fp.css"> -->
+    <meta charset="UTF-8" />
+    <title>Student Event Data</title>
+    <style>
+      h1 {
+        position: static;
+        background-color: rgb(149, 149, 235);
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 50;
+      }
+
+      li {
+        border: 1px solid #ccc;
+        margin: 5px 0;
+        padding: 10px;
+        position: relative;
+        background-color: antiquewhite;
+      }
+
+      li button {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Search Event</h1>
+    <div class="s1">
+        <div class="s2">
+             <h4 > search
+                <input class="s3" type="text" name=""placeholder="...Search event" list="se3" >
+                
+             </h4>
+        </div>
+    </div>
+    <ul id="entry-list">
+      <li>
+        26/03/2023<br />Badminton<br />Main Ground<br />Winner :-Raj<br />CSE<br />1BM21CS099
+      </li>
+      <li>
+        23/03/2023<br />GitHub Major<br />cse lab-4<br />Winner :-Ajay<br />CSE<br />1BM21CS100
+      </li>
+      <li>
+        24/03/2023<br />HACK Into<br />cse lab-3<br />Winner :-Yogesh<br />CSE<br />1BM21CS101
+      </li>
+      <li>
+        20/03/2023<br />Dancing Rocks<br />Audi-3<br />Winner :-Gyanesh<br />CSE<br />1BM21CS102
+      </li>
+      <li>
+        16/03/2023<br />Indian Idol<br />Audi-2<br />Winner :-Rabin<br />CSE<br />1BM21CS091
+      </li>
+      <li>
+        19/03/2023<br />Pass The Tip<br />Main Ground<br />Winner :-Aalok<br />CSE<br />1BM21CS092
+      </li>
+      <li>
+        18/03/2023<br />Cricket<br />Main Ground<br />Winner :-Prince<br />CSE<br />1BM21CS093
+      </li>
+      <li>
+        19/03/2023<br />Rocket Science<br />MEC lab-8<br />Winner :-Sahil<br />CSE<br />1BM21CS094
+      </li>
+      <li>
+        20/03/2023<br />Linked List BattelGround<br />Cse lab-2,3,4,5<br />Winner
+        :-Karan<br />CSE<br />1BM21CS095
+      </li>
+      <li>
+        14/03/2023<br />Phase shift<br />College<br />Winner :-santi<br />CSE<br />1BM21CS096
+      </li>
+      <li>
+        15/03/2023<br />Phase Shift<br />College <br />Winner :-Ruchika<br />CSE<br />1BM21CS097
+      </li>
+      <li>
+        19/03/2023<br />Long Jump<br />Main Ground<br />Winner :-sonam<br />CSE<br />1BM21CS098
+      </li>
+      <li>
+        19/03/2023<br />Kite Flying<br />7th floor<br />Winner :-Salman<br />CSE<br />1BM21CS088
+      </li>
+    </ul>
+ 
+<script>
+   const searchInput = document.querySelector('.search-input');
+const tableRows = document.querySelectorAll('table tr');
+
+searchInput.addEventListener('input', () => {
+  const searchTerm = searchInput.value.trim();
+  if (searchTerm !== '') {
+   
+    tableRows.forEach(row => {
+     
+      const date = row.cells[0].textContent;
+     
+      if (date !== searchTerm) {
+        row.style.display = 'none';
+      } else {
+        row.style.display = '';
+      }
+    });
+  } else {
+    
+    tableRows.forEach(row => {
+      row.style.display = '';
+    });
+  }
+});
+
+
+</script>
+</body>
+</html>

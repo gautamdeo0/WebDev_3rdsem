@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 90%;
+    background: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ttoopp{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #2518d4;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    background-color: rgb(184, 209, 231);
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+    color: rgb(40, 19, 224);
+    font-family: Arial;
+    font-weight: bold;
+   
+}
+
+ul li a:hover{
+    color: rgb(184, 209, 231);
+    background-color: rgb(40, 19, 224); 
+    box-shadow: 3px 5px 7px 3px rgba(0, 0, 0, 0.2);
+}
+.bg {
+    background-image: url('bgg.jpg') ;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .s1{
+    background-image: url('g6.jpeg') ;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130%; 
+    height:60px; 
+    float: left;
+    margin-top: 20px;
+    /* background-color: rgb(157, 223, 243); */
+}
+.s2{
+    border: 2px solid black;
+    width: 50%; 
+    height: 17px; 
+    float: none;
+    margin-top: 15px;
+    margin-left: 250px; 
+    cursor: pointer;
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.s3{
+    border: 1px solid black;
+    width: 89%; 
+    height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+}
+
+
+.b1{
+    width: 130%; 
+    height: 10000px; 
+    float: left;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.b2{
+    background-image: url("g6.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 80%; 
+    height: 100px; 
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(224, 252, 252);
+}
+.b13{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -46px;
+} 
+.b23{
+    list-style: none;
+    margin-left: 1140px;
+    margin-top: 0.1px;
+    font-size: 14px;
+}
+.b33{
+    border: 1px solid black;
+    width: 80%; 
+    height: 17px; 
+    float: left;
+    /* margin-top: 40px;
+    margin-left: 70px; */
+    cursor: pointer;
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(23, 243, 15);
+}
+.b33:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 87, 7);
+    box-shadow: 3px 5px 7px 3px rgba(0, 0, 0, 0.2);
+
+}
+.b14{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.b24{
+    list-style: none;
+    margin-left: 1130px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+.b34{
+    border: 1px solid black;
+    width: 80%; 
+    height: 17px; 
+    float: right;
+    /* margin-top: 55px;
+    margin-left: 200px; */
+    cursor: pointer;
+    padding: 6px 11px 6px 11px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(42, 159, 236);
+}
+.b34:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 97, 158);
+    box-shadow: 3px 5px 7px 3px rgba(0, 0, 0, 0.2);
+
+}
